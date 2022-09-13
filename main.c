@@ -15,7 +15,7 @@ int main()
 	data_size = ftell(fp);
 	fseek(fp, 0, SEEK_SET);
 	
-	printf("Data size file: %d", data_size);
+	printf("Data size file: %d\n", data_size);
 	
 	char *binary_code;
 	binary_code = malloc(data_size);
